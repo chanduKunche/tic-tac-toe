@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+
+.board-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10;
+  width: 250px;
+  margin: 0 auto;
+}
+.square {
+  padding: 10px 15px;
+  text-align: center;
+  background: #fff;
+  border: 2px solid black;
+  cursor: pointer;
+} 
+.status {
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+
+
+
+
+
